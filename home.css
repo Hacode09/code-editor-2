@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: darkcyan;
+    margin-left: 80px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 300%;
+}
+h3{
+    margin-left: 60px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+#with{
+    color: #d9afd9;
+}
+#html{
+    /* font-size: 30px; */
+    color:maroon;
+}
+#css{
+    color:blueviolet;
+}
+#js{
+    color: darkgoldenrod;
+}
+body{
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#username{
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+#first{
+    background-color:rgb(240, 255, 241);
+    text-align:center;
+    width: 300px;
+    height: 23px;
+    border: wheat;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 60px;
+    margin-top: -15px;
+}
+
+.form button{
+    background-color: #d9afd9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkcyan;
+}
